@@ -3,7 +3,7 @@
 # https://unix.stackexchange.com/questions/410579/change-the-python3-default-version-in-ubuntu
 
 CONTAINER_NAME=$1
-PYTHON_VERSION=$2
+PYTHON_VERSION="python$2"
 CMD="docker exec -it $CONTAINER_NAME"
 
 $CMD apt-get install -y software-properties-common
