@@ -10,7 +10,7 @@ REPO_NAME="https://github.com/n1ckfg/$4"
 CMD="docker exec -it $CONTAINER_NAME"
 
 $CMD apt-get update
-$CMD apt-get install -y git
+$CMD apt-get install -y git nano
 
 $CMD apt-get install -y software-properties-common
 $CMD add-apt-repository ppa:deadsnakes/ppa -y
