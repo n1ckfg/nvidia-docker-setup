@@ -21,5 +21,3 @@ $CMD update-alternatives --install /usr/bin/python3 python3 /usr/bin/$PYTHON_VER
 
 $CMD pip3 install $TENSORFLOW_VERSION
 
-$CMD bash -c "cd /root"
-$CMD bash -c "git clone $REPO_NAME"
