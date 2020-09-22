@@ -1,1 +1,2 @@
-docker exec -it $1 $2
+docker exec -it $1 bash
+
