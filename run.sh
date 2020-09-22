@@ -1,1 +1,3 @@
-nvidia-docker run -it $1
+nvidia-docker start $1
+nvidia-docker exec -it $1 bash
+
