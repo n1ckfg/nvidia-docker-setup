@@ -10,6 +10,8 @@ sudo apt-get update
 sudo apt-get install docker-ce
 
 sudo usermod -aG docker $USER_NAME
+
+# This may need to be rerun as root
 su - $USER_NAME
 
 curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \
