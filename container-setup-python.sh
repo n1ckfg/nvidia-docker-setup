@@ -9,7 +9,7 @@ CMD="docker exec -it $CONTAINER_NAME"
 $CMD apt-get install -y software-properties-common
 $CMD add-apt-repository ppa:deadsnakes/ppa -y
 $CMD apt-get update
-$CMD apt-get install -y $PYTHON_VERSION python3-pip
+$CMD apt-get install -y $PYTHON_VERSION python3-pip lib$PYTHON_VERSION-dev
 $CMD update-alternatives --install /usr/bin/python python /usr/bin/$PYTHON_VERSION 1
 $CMD update-alternatives --install /usr/bin/python3 python3 /usr/bin/$PYTHON_VERSION 1
 
