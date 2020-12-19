@@ -8,7 +8,7 @@ PYTHON_VERSION="python$2"
 CMD="docker exec -it $CONTAINER_NAME"
 
 $CMD apt-get update
-$CMD apt-get install -y git nano
+$CMD apt-get install -y git nano wget curl
 
 ./container-setup-python.sh $1 $2
 
