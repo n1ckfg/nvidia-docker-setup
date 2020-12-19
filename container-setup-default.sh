@@ -10,5 +10,5 @@ CMD="docker exec -it $CONTAINER_NAME"
 $CMD apt-get update
 $CMD apt-get install -y git nano
 
-./container-python-setup.sh $1 $2
+./container-setup-python.sh $1 $2
 

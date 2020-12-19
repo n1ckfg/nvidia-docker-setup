@@ -8,7 +8,7 @@ TORCH_VERSION="torch==$3"
 
 CMD="docker exec -it $CONTAINER_NAME"
 
-./container-default-setup.sh $1 $2
+./container-setup-default.sh $1 $2
 
 $CMD pip3 install $TORCH_VERSION
 
