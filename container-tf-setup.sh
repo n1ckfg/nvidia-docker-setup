@@ -4,11 +4,11 @@
 
 CONTAINER_NAME=$1
 PYTHON_VERSION="python$2"
+TENSORFLOW_VERSION="tensorflow-gpu==$3"
 
 CMD="docker exec -it $CONTAINER_NAME"
 
-$CMD apt-get update
-$CMD apt-get install -y git nano
+./container-default-setup.sh $1 $2
 
-./container-python-setup.sh $1 $2
+$CMD pip3 install $TENSORFLOW_VERSION
 
