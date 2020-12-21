@@ -14,6 +14,9 @@ docker run --rm -it \
     --env="DISPLAY" \
     --device=/dev/dri:/dev/dri \
     --volume=/run/user/$(id -u)/pulse:/run/pulse \
-    --volume=$(pwd)/of:/of \
     $1 \
     bash
+
+    #--volume=$(pwd)/of:/of \
+    #$1 \
+    #bash
