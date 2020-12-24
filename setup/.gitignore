@@ -1,3 +1,9 @@
 *.deb
 *.deb.1
+*.tgz
+*-run
+*.pl
+*.pm
+cuda/*
+run_files/*
 

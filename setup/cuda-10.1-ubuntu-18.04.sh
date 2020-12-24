@@ -9,8 +9,8 @@ wget http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1
 sudo apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb
 sudo apt-get update
 
-# Install NVIDIA driver
-sudo apt-get install --no-install-recommends nvidia-driver-450
+# If you need to install NVIDIA driver
+#sudo apt-get install --no-install-recommends nvidia-driver-450
 # Reboot. Check that GPUs are visible using the command: nvidia-smi
 
 # Install development and runtime libraries (~4GB)
