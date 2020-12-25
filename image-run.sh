@@ -1,1 +1,1 @@
-nvidia-docker run -it $1
+docker run -it $1
