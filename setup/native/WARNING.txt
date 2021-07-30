@@ -1,0 +1,1 @@
+Don't run these scripts in WSL!
