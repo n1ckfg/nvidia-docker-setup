@@ -9,5 +9,9 @@ fi
 
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo apt-get update
+
+# server only
+#sudo apt-get install ubuntu-drivers-common
+
 sudo ubuntu-drivers autoinstall
 
