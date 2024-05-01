@@ -1,1 +1,0 @@
-docker commit $1
